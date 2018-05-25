@@ -1,0 +1,8 @@
+I am having a hard time finding out where the bug is in my AI findmove() method.  my AI WORKS if max_depth = 5 but when you set it to 8 it no longer works.
+
+If you look in AI and set max_depth to 8.  This test fails because of an assertion error.  The error
+occurs in my Board.makeMove method when the move is passed into Board.legalMove.  I am almost certain that there is no problem
+with my legal move method or my makeMove method, although possible.  I have been trying to debug my code, but I cannot find out
+where the error really occurs in the recursion process in findMove.  It's possible that I am creating too many board copies in my findMove
+method and that a move is being passed to a board copy that cannot take that move.  Thanks so much for your help!
+

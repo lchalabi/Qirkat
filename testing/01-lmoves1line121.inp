@@ -1,0 +1,13 @@
+# line 121 from 01-moves1.
+java -ea qirkat.Main
+
+set white ----w ----- ----- ----- b----
+e1-d1
+dump
+@<===
+@< b - - - -
+@< - - - - -
+@< - - - - -
+@< - - - - -
+@< - - - w -
+@<===

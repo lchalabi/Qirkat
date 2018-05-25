@@ -1,0 +1,31 @@
+# Test some more basic moves.
+java -ea qirkat.Main
+set white ----- ----- -w--- -bb-- -----
+b3-b5
+dump
+@<===
+@< - w - - -
+@< - - b - -
+@< - - - - -
+@< - - - - -
+@< - - - - -
+@<===
+
+clear
+
+set black ----- ----- -w--- -bb-- -----
+b4-b2
+
+dump
+@<===
+@< - - - - -
+@< - - b - -
+@< - - - - -
+@< - b - - -
+@< - - - - -
+@<===
+
+
+
+
+quit
